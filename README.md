@@ -32,18 +32,18 @@ Data is stored locally using PHP and organized for quick retrieval.
 Ensures privacy and security of sensitive user information.
 
 # Technologies Used
-1. <h3>Frontend</h3>:
+1. <h3>Frontend</h3>
 HTML5, CSS3, and JavaScript for a responsive and visually appealing user interface.
 Graphics and icons to enhance usability and clarity.
 
-2. <h3>Backend</h3>:
+2. <h3>Backend</h3>
 PHP: Used to handle server-side logic, manage user interactions, and communicate with the local storage.
 Local Storage: Data is stored efficiently to support user actions and maintain session details.
 
-3. <h3>Database</h3>:
+3. <h3>Database</h3>
 Local database setup using PHP for storing donor, patient, and doctor information securely.
 
-4. <h3>Additional Tools</h3>:
+4. <h3>Additional Tools</h3>
 Streamlined File Handling: Efficiently processes data updates and form submissions.
 Session Management: Tracks user activity to ensure smooth navigation and secure transactions.
 
@@ -76,15 +76,15 @@ The Patient Page allows patients to request organ donations, update their medica
 ![Screenshot 2024-12-28 195952](https://github.com/user-attachments/assets/090e656d-2429-406a-baca-68f3f97b125a)
 
 # Future Enhancement :
-1. Real-Time Data Syncing with MongoDB
+1. <h3>Real-Time Data Syncing with MongoDB</h3>
 Enhancement: Enhance MongoDB integration to ensure real-time syncing of data (e.g., doctor schedules, patient requests, donations) across all user interfaces.
 Tech: Utilize MongoDB’s change streams for real-time data updates.
 
-2. Real-Time Notifications
+2. <h3>Real-Time Notifications</h3>
 Enhancement: Implement real-time notifications for patients, doctors, and donors about updates or changes (e.g., appointment confirmations, donation requests, status updates).
 Tech: Use WebSockets or services like Firebase to push notifications directly to users.
 
-3. AI Chatbot for Patient Queries
+3. <h3>AI Chatbot for Patient Queries</h3>
 Enhancement: Integrate an AI-powered chatbot that can assist patients with common queries, booking appointments, or finding doctors, even outside working hours.
 Tech: Leverage natural language processing (NLP) with frameworks like GPT-3, Rasa, or Dialogflow.
 
