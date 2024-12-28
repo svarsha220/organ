@@ -1,4 +1,4 @@
-# CareBridge-organ
+# MedMatch: A Healthcare Platform for Patients, Doctors, and Donors
 # Introduction
 The organ donation website is a platform designed to bridge the gap between organ donors, patients in need, doctors, and administrators. It aims to raise awareness about the importance of organ donation and streamline the process of matching donors with recipients. By simplifying the management of organ availability and doctor schedules, the website facilitates life-saving interventions in an efficient and user-friendly manner.
 
