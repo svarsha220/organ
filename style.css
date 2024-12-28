@@ -1,0 +1,38 @@
+.container div
+{
+    width: 500px;
+    height: 250px;
+    padding: 30px;
+    
+}
+.container{
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+.titlebar{
+    color: black;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 0, 85);
+}
+body{
+    background-image: url(indeximage.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+}
+hr{
+    color: black;
+    border-style: double;
+   
+ }
+ #click{
+    color: chocolate;
+ }
+ h2 div{
+    padding: 20px;
+    color:black;
+ }
+ 

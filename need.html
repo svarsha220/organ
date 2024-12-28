@@ -1,0 +1,114 @@
+<html>
+    <body>
+        <h1>
+            patient details 
+        </h1>
+        <hr>
+    <form>
+        <div>
+        Patient_name<input type="text" name="donor_name">
+    </div>
+        
+        <div > blood_group
+        <select name="blood_group">
+            <option >O+</option>
+            <option >O-</option>
+            <option >A+</option>
+            <option >A-</option>
+            <option >B+</option>
+            <option >B-</option>
+            <option >AB+</option>
+            <option >AB-</option>
+
+        </select>
+        </div>
+        <div > Gender
+            <select name="Gender">
+                <option >male</option>
+                <option >female</option>
+                <option >other</option>
+            </select>
+            </div>
+
+        </div>
+        <div >required_organ
+            <select name="organ">
+                <option >heart</option>
+                <option >kidney</option>
+                <option >lungs</option>
+                <option >liver</option>
+                <option >eyes</option>
+                <option >brain</option>
+            </select>
+            </div>
+            <div>
+                required_before <input type="date" name="date">
+            </div>
+    <div>
+        Age <input type="number" name="Age">
+    </div>
+    <div>
+        DOB <input type="date" name="DOB">
+    </div>
+ 
+    <div>
+        <button type="submit" id="button">update</button>
+    </div>
+    
+    </form>
+
+    <style>
+        #button{
+            
+            height: 80px;
+            width: 100px;
+            border-radius: 30px;
+            border-style: groove;
+        }
+        div{
+            padding: 20px;
+        }
+        select{
+            height: 60px;
+            width: 25%;
+            border-radius: 30px;
+            padding: 20px;
+            font-size: large;
+            
+        }
+       input{
+
+        font-size: 1.0em;
+        width: 25%;
+        line-height: 40px;
+        border-radius: 30px;
+        padding: 10px;
+
+         }
+         form{
+            text-align: center;
+            color: rgb(3, 54, 62);
+            font-size: x-large;
+         }
+         body{
+            background-color: rgb(240, 209, 240);
+         }
+         h1{
+            padding: 30px;
+            text-align: center;
+            color: black;
+         }
+         .small{
+            font-size: large;
+         }
+         #agree{
+            text-align: left;
+         }
+         hr{
+            color: black;
+            border-style: double;
+           
+         }
+    </style>
+    </body>
+</html>
